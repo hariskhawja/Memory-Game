@@ -27,7 +27,7 @@ You can also view the [PDF](media/diagrams/schematic.pdf).
 
 ## Diagram (TinkerCAD)
 ![diagram in TinkerCAD](diagrams/tinkercad-diagram.png)
-You can view the TinkerCAD demo [here](https://www.tinkercad.com/things/dRhVC8RqspU?sharecode=mX4kNoiZdke6x4hJpInBGDlS2u-rRKsvSmVpOtCBEpc). You can also try out the circuit here.
+You can view and simulate the circuit in TinkerCAD [here](https://www.tinkercad.com/things/dRhVC8RqspU?sharecode=mX4kNoiZdke6x4hJpInBGDlS2u-rRKsvSmVpOtCBEpc). 
 
 ## Photo
 ![photo of circuit](media/pictures/circuit.jpg)
