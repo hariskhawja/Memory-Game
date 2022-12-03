@@ -22,8 +22,8 @@ By Aritro, Byron, and Haris
 
 
 ## Schematic 
-![schematic](diagrams/schematic.png)
-You can also view the [PDF](diagrams/schematic.pdf).
+![schematic](media/diagrams/schematic.png)
+You can also view the [PDF](media/diagrams/schematic.pdf).
 
 ## Diagram (TinkerCAD)
 ![diagram in TinkerCAD](diagrams/tinkercad-diagram.png)
