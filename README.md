@@ -26,7 +26,7 @@ By Aritro, Byron, and Haris
 You can also view the [PDF](media/diagrams/schematic.pdf).
 
 ## Diagram (TinkerCAD)
-![diagram in TinkerCAD](diagrams/tinkercad-diagram.png)
+![diagram in TinkerCAD](media/diagrams/tinkercad-diagram.png)
 You can view and simulate the circuit in TinkerCAD [here](https://www.tinkercad.com/things/dRhVC8RqspU?sharecode=mX4kNoiZdke6x4hJpInBGDlS2u-rRKsvSmVpOtCBEpc). 
 
 ## Photo
