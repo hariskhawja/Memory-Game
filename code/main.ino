@@ -256,7 +256,7 @@ void loop() {
 
 // Update the decoder that controls the 7 segment display
 void numToBCD(int num) {
-  num = max(1, min(num, 9)); // Decoder does not output when n<1 and n>9
+  num = max(0, min(num, 9)); // Decoder does not output when n<0 and n>9
   for (int i = 0; i < LEN(DECODER_PINS); i++) {
     digitalWrite(DECODER_PINS[i], bitRead(num, i));
   }
