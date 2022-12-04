@@ -8,7 +8,7 @@ Date: Tuesday, November 29, 2022
 - Byron and Haris started to work on wiring the rest of the components (LEDs, buttons, Arduino, buzzer, etc.)
 
 ## Pictures of Circuitry
-[physical circuit] ()
+[physical circuit] (/media/pictures/pDay2.jpg)
 [tinkerCad circuit] ()
 
 ## What is a shift register?
