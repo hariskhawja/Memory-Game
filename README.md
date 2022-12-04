@@ -2,7 +2,7 @@
 By Aritro, Byron, and Haris
 
 ## Project Description
-...
+Food
 
 ## Parts List
 |        **Component**       | **Quantity** |
