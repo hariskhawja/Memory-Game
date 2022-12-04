@@ -9,7 +9,9 @@ circuit turning on and playing sounds in a specific sequence, requiring the play
 in the correct order to proceed to the next level. It uses four buttons to input the sequence, four
 differently colored LEDs to indicate which button to press, a buzzer to play sounds, and a 7 segment display
 to show the user's current score. The game has 10 levels, and the player wins if they can complete them all.
-These levels are also randomly generated each time to provide a unique experience to the player.
+These levels are also randomly generated each time to provide a unique experience to the player. This project is 
+completely original, and we didn't follow any online walkthroughs or guides in order to make either the circuit or 
+the code.
 
 ## Parts List
 
