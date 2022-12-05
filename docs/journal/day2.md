@@ -4,11 +4,11 @@ Date: Tuesday, November 29, 2022
 - Chose the Memory Game project, got it approved by the teacher
 - Aritro and Haris started to work on figuring out the wiring for the 8 bit shift register (75HC595)
   - The wiring for the shift register is somewhat complicated, so I (Aritro) worked on a TinkerCAD diagram before creating it in-person
-  - He used [this article](https://lastminuteengineers.com/74hc595-shift-register-arduino-tutorial/) to understand more about it works 
+  - He used [this article](https://lastminuteengineers.com/74hc595-shift-register-arduino-tutorial/) to understand more about how it works 
 - Byron and Haris started to work on wiring the rest of the components (LEDs, buttons, Arduino, buzzer, etc.)
 - Byron had also begun to program some parts of the memory game, including the sequence generation and pin intialization
 
-## Pictures of Circuitry
+## Picture of Circuitry
 ![physical circuit](/media/pictures/pDay2.jpg)
 
 ## What is a shift register?

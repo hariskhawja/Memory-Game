@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Memory Game - Day 2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="log.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <p class="nav-title">Memory Game</p>
+
+        <div class="nav-links">
+            <a class="nav-link" href="/Memory-Game/project-description">Back to Home</a>
+        </div>
+    </nav>
+
+    <main>
+        <div style="width: 100%; display: flex; flex-direction: row; justify-content: space-between;">
+            <a href="/day1.html" class="link">Go to Day 1</a>
+            <a href="/day3.html" class="link">Go to Day 3</a>
+        </div>
+
+        <h1 class="title center">Memory Game - Day 2</h1>
+        <p class="subtitle center" style="margin-bottom: 5px;">November 29, 2022</p>
+
+        <section style="display: flex; flex-direction: column; gap: 0;" id="project-description">
+            <h2 class="" style="margin-top: 30px; margin-bottom: 10px;">Summary</h2>
+
+            <ul style="margin-top: 5px;">
+                <li>Chose the Memory Game project, got it approved by the teacher</li>
+                <li>Aritro and Haris started to work on figuring out the wiring for the 8 bit shift register (75HC595)</li>
+                <ul>
+                    <li>The wiring for the shift register is somewhat complicated, so Aritro worked on a TinkerCAD diagram before creating it in-person</li>
+                    <li>He used <a href="https://lastminuteengineers.com/74hc595-shift-register-arduino-tutorial/">this article</a> to understand more about how it works</li>
+                </ul>
+                <li>Byron and Haris started to work on wiring the rest of the components (LEDs, buttons, Arduino, buzzer, etc.)</li>
+                <li>Byron had also begun to program some parts of the memory game, including the sequence generation and pin intialization</li>
+            </ul>
+
+            <h2 class="" style="margin-top: 30px; margin-bottom: 10px;">Picture of Circuitry</h2>
+            <img src="/media/pictures/pDay2.jpg" width="60%"/>
+
+            <h2 class="" style="margin-top: 30px; margin-bottom: 10px;">What is a shift register?</h2>
+            <p>The shift register is an integrated circuit who's purpose is to store and transfer binary data. The circuit takes binary data as input from a microcontroller, and shifts each bit by one place for each presetted clock pulse and outputs the result through its output pins.</p>
+            <p>As a powerful Arduino component, it consists of 16 pins: 3 of which are used as input pins and 8 used as output pins. This 8:3 ratio in terms of I/O pins reveals its ability to enhance circuit performance by reducing total tools used to complete a given task.</p>
+            <a href="https://electronicscoach.com/shift-register.html">source</a>
+        </section>
+    </main>
+</body>
+
+</html>
