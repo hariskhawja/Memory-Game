@@ -10,7 +10,7 @@ Date: Thursday, December 1, 2022
     - Another option was to utilize the Arduino's other I/O pins, since there was enough to power each segment of the 7 segment display
     - Finally, the third option was to utilize another more powerful integrated circuit: the CD4511 or the 7 segment decoder
 - Aritro, Byron, and Haris selected the third option since it seemed to significantly increases chances of success of the project
-- The team began to research and implement the CD4511 into the circuit
+- The team began to research and implement the CD4511 into the circuit, learning from this [datasheet](https://www.futurlec.com/4000Series/CD4511.shtml)
 
 ## Pictures of TinkerCAD Circuitry with CD4511
 ![tinkerCAD circuit](/media/diagrams/tDay4.jpg)
