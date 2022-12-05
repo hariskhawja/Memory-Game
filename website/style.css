@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    padding: 1rem;
 
     font-family: "Inter", sans-serif;
 
@@ -69,4 +70,19 @@ th {
 .part-list img {
     width: max(75px, 30%);
     height: auto;
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #1d4ed8;
+    text-decoration: underline;
 }
