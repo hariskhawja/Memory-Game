@@ -67,6 +67,6 @@ th {
 }
 
 .part-list img {
-    width: max(100px, 30%);
+    width: max(75px, 30%);
     height: auto;
 }
