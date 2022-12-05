@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Memory Game - Daily Log</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <p class="nav-title">Memory Game</p>
+
+        <div class="nav-links">
+            <a class="nav-link" href="#project-description">Description</a>
+            <a class="nav-link" href="#tinkercad">TinkerCAD</a>
+            <a class="nav-link" href="#pics-videos">Pictures & Videos</a>
+            <a class="nav-link" href="#parts-list">Part List</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="title center">Memory Game</h1>
+        <p class="subtitle center" style="margin-bottom: 5px;">Made by Aritro S, Byron Z, Haris K</p>
+        <p class="subtitle center">Made for Arduino Project assignment (TEJ3M0)</p>
+
+        <section style="display: flex; flex-direction: column; align-items: center; gap: 0;" id="project-description">
+            <h2 class="center" style="margin-top: 30px; margin-bottom: 10px;">Project Description</h2>
+            <p class="center" style="width: 60%; margin-top: 5px;">
+                The project that we chose for our Arduino project was a memory game. The single player game involves the
+                circuit turning on and playing sounds in a specific sequence, requiring the player to replay that
+                sequence
+                in the correct order to proceed to the next level. It uses four buttons to input the sequence, four
+                differently colored LEDs to indicate which button to press, a buzzer to play sounds, and a 7 segment
+                display
+                to show the user&#39;s current score. The game has 10 levels, and the player wins if they can complete
+                them
+                all.
+                These levels are also randomly generated each time to provide a unique experience to the player. This
+                project is completely original, and we didn&#39;t follow any online walkthroughs or guides in order to
+                make
+                either the circuit or the code.
+            </p>
+        </section>
+
+        <section style="display: flex; flex-direction: column; align-items: center; gap: 0; margin-bottom: 50px;" id="tinkercad">
+            <h2 class="center" style="margin-top: 30px; margin-bottom: 10px;">TinkerCAD Simulation</h2>
+
+            <iframe style="width: 60%; margin-top: 5px;" width="700" height="700"
+                src="https://www.tinkercad.com/embed/dRhVC8RqspU?editbtn=1" frameborder="0" marginwidth="0"
+                marginheight="0" scrolling="no"></iframe>
+        </section>
+
+        <section style="display: flex; flex-direction: column; align-items: center; gap: 0;" id="pics-videos">
+            <h2 class="center" style="margin-top: 30px; margin-bottom: 10px;">Pictures and Videos of Circuit</h2>
+
+            <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 5px;">
+                <img src="/media/pictures/circuit.jpg" alt="Circuit" style="width: min(max(300px, 40%), 500px);" />
+                <video src="/media/videos/circuit_demo.mp4" controls
+                    style="width: min(max(300px, 40%), 500px);"></video>
+            </div>
+        </section>
+
+        <section style="display: flex; flex-direction: column; align-items: center; gap: 0;" id="parts-list">
+            <h2 class="center" style="margin-top: 30px; margin-bottom: 10px;">Parts List</h2>
+            <table class="part-list" style="width: max(300px, 50%);">
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Picture</th>
+                </tr>
+
+                <tr>
+                    <td>Arduino Uno</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/arduino-uno.png" alt="Arduino Uno" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>7 Segment Display (Cathode)</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/7-segment-display.png" alt="7 segment display"></td>
+                </tr>
+
+                <tr>
+                    <td>7 Segment Decoder (CD4511)</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/cd4511.png" alt="CD4511 IC" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>LED (Blue)</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/blue-led.png" alt="Blue LED" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>LED (Orange)</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/orange-led.png" alt="Orange LED" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>LED (Red)</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/red-led.png" alt="Red LED" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>LED (Yellow)</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/yellow-led.png" alt="Yellow LED" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>Pushbutton</td>
+                    <td>4</td>
+                    <td><img src="/media/pictures/parts-list/pushbutton.png" alt="Pushbutton" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>Resistor (200Ω)</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/resistor-200.png" alt="200Ω resistor" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>Resistor (220Ω)</td>
+                    <td>4</td>
+                    <td><img src="/media/pictures/parts-list/resistor-220.png" alt="220Ω resistor" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>Resistor (330Ω)</td>
+                    <td>4</td>
+                    <td><img src="/media/pictures/parts-list/resistor-330.png" alt="330Ω resistor" width="100px"></td>
+                </tr>
+
+                <tr>
+                    <td>Speaker</td>
+                    <td>1</td>
+                    <td><img src="/media/pictures/parts-list/speaker.png" alt="Speaker" width="100px"></td>
+                </tr>
+            </table>
+        </section>
+
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 0;">
+            <h2 class="center" style="margin-top: 30px; margin-bottom: 10px;">More Info</h2>
+            <p class="center" style="width: 60%; margin-top: 5px;">
+                You can view more info about this project on our <a href="https://github.com/hariskhawja/Memory-Game"
+                    class="link" target="_blank" rel="noreferrer">GitHub repository</a>.
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
