@@ -16,7 +16,7 @@ Date: Thursday, December 1, 2022
 ![tinkerCAD circuit](/media/diagrams/tDay4.jpg)
 
 ## Video of the Nearly Completed Physical Circuitry
-
+https://user-images.githubusercontent.com/92524990/205534977-3c9a5111-f35b-4406-b96d-3292d2d5014b.mp4
 
 ## What is a 7 segment decoder?
 The 7 segment decoder is an integrated circuit who's purpose is to use certain binary patterns to encode decimal values from 0-9 with 4-bits. Similar to the shift register, the 7 segment decoder drastically reduces the number of I/O pins used by the Arduino to control the 7 segment display. In simple terms, to reflect the correct numerical values, this IC records each segment of the display with an encoding digit on each of its pins. 
