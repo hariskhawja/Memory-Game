@@ -47,3 +47,7 @@ You can view and simulate the circuit in TinkerCAD [here](https://www.tinkercad.
 ## Video
 
 https://user-images.githubusercontent.com/29025984/205433689-031c2f9c-bf1a-4e09-9b8a-58713577348a.mp4
+
+## GitHub Pages
+
+https://hariskhawja.github.io/Memory-Game/
