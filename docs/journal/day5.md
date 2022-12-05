@@ -14,3 +14,4 @@ Date: Friday, December 2, 2022
 ![tinkerCAD circuit](/media/diagrams/tDay5.jpg)
 
 ## Video of the Completed Circuitry
+Uploading circuit_complete.mp4…
