@@ -22,3 +22,4 @@ Date: Wednesday, November 30, 2022
 https://user-images.githubusercontent.com/92524990/205530881-0e522c78-80a1-449e-bac2-42dba7294a43.mp4
 
 ## Video of the Nearly Completed Physical Circuit
+https://user-images.githubusercontent.com/92524990/205533311-0ac938b6-0f2a-4741-af31-17a80c9155db.mp4
