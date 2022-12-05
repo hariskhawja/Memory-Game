@@ -8,7 +8,7 @@ Date: Tuesday, November 29, 2022
 - Byron and Haris started to work on wiring the rest of the components (LEDs, buttons, Arduino, buzzer, etc.)
 
 ## Pictures of Circuitry
-Physical Circuit ![physical circuit](/media/pictures/pDay2.jpg))
+![physical circuit](/media/pictures/pDay2.jpg)
 
 ## What is a shift register?
 The shift register is an integrated circuit who's purpose is to store and transfer binary data. The circuit takes binary data as input from a microcontroller, and shifts each bit by one place for each presetted clock pulse and outputs the result through its output pins. 
