@@ -45,3 +45,28 @@ body::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
 }
+
+table, th, td {
+    border: 3px solid black;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th {
+    font-size: 1.1rem;
+    background-color: #c7d2fe;
+    font-weight: 700;
+}
+
+.part-list img {
+    width: max(100px, 30%);
+    height: auto;
+}
