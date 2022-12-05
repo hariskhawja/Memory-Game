@@ -16,4 +16,3 @@ Date: Wednesday, November 30, 2022
 ![tinkerCAD circuit](/media/diagrams/tDay3.jpg)
 
 ## TinkerCAD Video of 7-Segment Display in Action
-![tinkerCAD 7-segment video](/media/videos/circuit_display.mp4)
