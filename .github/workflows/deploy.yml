@@ -14,7 +14,7 @@ jobs:
 
       - name: Copy website data to root
         run: |
-          cp -r website/* . && touch .nojekyll && rm README.md && rm -rf website
+          cp -r website/* . && touch .nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
