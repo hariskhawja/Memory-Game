@@ -23,4 +23,4 @@ The 7 segment decoder is an integrated circuit who's purpose is to use certain b
 
 The IC has 16 pins in total: 4 of which are used as input pins and 7 used as output pins (for each corresponding segment of the display). This 7:4 ratio in terms of I/O pins reveals its ability to enhance circuit performance by reducing total tools used to complete a given task.
 
-![source](https://www.javatpoint.com/bcd-to-seven-segment-decoder)
+[source](https://www.javatpoint.com/bcd-to-seven-segment-decoder)
