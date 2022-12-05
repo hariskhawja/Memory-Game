@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Memory Game - Day 4</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="log.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <p class="nav-title">Memory Game</p>
+
+        <div class="nav-links">
+            <a class="nav-link" href="./">Back to Home</a>
+        </div>
+    </nav>
+
+    <main>
+        <div style="width: 100%; display: flex; flex-direction: row; justify-content: space-between;">
+            <a href="./day3.html" class="link">← Go to Day 3</a>
+            <a href="./day5.html" class="link">Go to Day 5 →</a>
+        </div>
+
+        <h1 class="title center">Memory Game - Day 4</h1>
+        <p class="subtitle center" style="margin-bottom: 5px;">December 1, 2022</p>
+
+        <section style="display: flex; flex-direction: column; gap: 0;" id="project-description">
+            <h2 class="" style="margin-top: 30px; margin-bottom: 10px;">Summary</h2>
+
+            <ul style="margin-top: 5px;">
+                <li>Aritro, Byron, and Haris were able to resolve all programming and wiring errors related to the memory game circuitry</li>
+                <li>Although the game did work, it became apparent that the 75HC595 was very buggy and was adament in oftentimes failing to supply power to the 7 segment display</li>
+                <li>The 75HC595 was also consistent in failing to present the correct levels within the game</li>
+                <li>More wire stripping was taken place as majority of all voltage and ground wires had been completed</li>
+                <li>Though in theory the game was working (TinkerCAD), the physical circuit built was inconsistent due to the 75HC595 IC,</li>
+                <li>thus a collaborative reflection took place to determine the team's direction or next steps with the project:</li>
+                <ul>
+                    <li>One such option was to attempt to refine the 75HC595 and reduce failures</li>
+                    <li>Another option was to utilize the Arduino's other I/O pins, since there was enough to power each segment of the 7 segment display</li>
+                    <li>Finally, the third option was to utilize another more powerful integrated circuit: the CD4511 or the 7 segment decoder</li>
+                </ul>
+                <li>Aritro, Byron, and Haris selected the third option since it seemed to significantly increases chances of success of the project</li>
+                <li>The team began to research and implement the CD4511 into the circuit, learning from this <a href="https://www.futurlec.com/4000Series/CD4511.shtml">datasheet</a></li>
+            </ul>
+
+            <h2 class="" style="margin-top: 30px; margin-bottom: 10px;">Pictures of Circuitry</h2>
+            
+            <img src="/media/diagrams/tDay4.jpg" width="60%"/>
+
+            <h2 class="" style="margin-top: 30px; margin-bottom: 10px;">Video of the Completed Circuitry</h2>
+
+            <video src="https://user-images.githubusercontent.com/92524990/205534977-3c9a5111-f35b-4406-b96d-3292d2d5014b.mp4" controls
+                    style="width: min(max(300px, 40%), 500px);"></video></h2>
+        </section>
+        <section style="display: flex; flex-direction: column; gap: 0;" id="project-description">
+            <h2 class="" style="margin-top: 30px; margin-bottom: 10px;">What is a 7 segment decoder?</h2>
+
+            <p style="margin-top: 5px;">
+            The 7 segment decoder is an integrated circuit who's purpose is to use certain binary patterns to encode decimal values from 0-9 with 4-bits. Similar to the shift register, the 7 segment decoder drastically reduces the number of I/O pins used by the Arduino to control the 7 segment display. In simple terms, to reflect the correct numerical values, this IC records each segment of the display with an encoding digit on each of its pins.
+            The IC has 16 pins in total: 4 of which are used as input pins and 7 used as output pins (for each corresponding segment of the display). This 7:4 ratio in terms of I/O pins reveals its ability to enhance circuit performance by reducing total tools used to complete a given task.
+            <a href="https://www.javatpoint.com/bcd-to-seven-segment-decoder">source</a>
+        </p>
+        </section>
+    </main>
+</body>
+
+</html>
